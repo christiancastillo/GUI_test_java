@@ -1,4 +1,9 @@
+import java.awt.EventQueue;
 
-public class Main {
+import javax.swing.JFrame;
 
+public class Main extends JFrame{
+
+
+	
 }
