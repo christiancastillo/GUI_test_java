@@ -3,6 +3,8 @@ package view;
 import java.awt.EventQueue;
 import javax.swing.JFrame;
 
+import controller.MainController;
+
 
 public class MainView extends JFrame{
 
