@@ -7,12 +7,17 @@ import controller.MainController;
 
 
 public class MainView extends JFrame{
+	
+	public MainView() {
+		super();
+	}
 
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
 				try {
-					new MainView().setVisible(true);
+					new MainView().setVisible(true);					
+					
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
